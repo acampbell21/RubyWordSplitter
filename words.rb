@@ -33,8 +33,8 @@ end
 
 def word_splitter
   puts "Enter a word to split"
-  first_word = gets.chomp
-  puts myincrediblebrain(first_word)
+  user_word = gets.chomp
+  puts myincrediblebrain(user_word)
   puts 'type QUIT to exit or 1 to keep going'
   choice = gets.chomp.to_i
   case choice
